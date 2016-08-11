@@ -1,0 +1,46 @@
+{
+      "code": 1,  
+      "msg": "操作成功",  
+      "bid":
+      {
+             "name": "32号公路北307土地标段",  
+             "id": 11,  
+             "type": 40,  
+             "host": "107",  
+             "content": "456",  
+             "source": "456",  
+             "attachpath": "http://www.kingland119.com/files/image?name=1414463071512.jpg",  
+             "projectTypeList":
+             [
+                    {
+                           "id": 5,  
+                           "projectTypeName": "电力",  
+                           "projecttype": 2,  
+                           "bidid": 11  
+                    },
+                    {
+                           "id": 6,  
+                           "projectTypeName": "土建",  
+                           "projecttype": 3,  
+                           "bidid": 11 
+                    }
+             ],
+             "opt": 1466611200000,  
+             "isCollect": 1,  
+             "bidcode": "456",  
+             "agent": "34",  
+             "winner": null,
+             "cityName": "盘锦市大洼县",  
+             "parentid": null,
+             "privilege": 0,  
+             "price": null,
+             "cityid": 130300,  
+             "enable": 2,  
+             "finishdate": 1466697600000,  
+             "attachname": "附件",  
+             "projectcode": "DL160623003",  
+             "categoryid": 11,  
+             "createdate": 1465920000000,  
+             "fixed": 1
+      }
+}

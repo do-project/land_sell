@@ -1,0 +1,71 @@
+﻿{
+  "ID": "do_Unionpay",
+  "IsContainer": "0",
+  "Type": "SM",
+  "Name": "银联支付",
+  "Version": "Internal",
+  "Description": "接入银联SDK，完成支付功能",
+  "Icon": "",
+  "IOS": {
+    "Support": 1,
+    "MinVersion": "7.0"
+  },
+  "Android": {
+    "Support": 1,
+    "MinVersion": "4.0"
+  },
+  "Windows": {
+    "Support": 0,
+    "MinVersion": ""
+  },
+  "WindowsPhone": {
+    "Support": 0,
+    "MinVersion": ""
+  },
+  "Html": {
+    "Support": 1,
+    "MinVersion": "5.0"
+  },
+  "Properties": [],
+  "Events": [],
+  "syncMethodes": [],
+  "asyncMethodes": [
+    {
+      "ID": "startPay",
+      "Name": "支付",
+      "Description": "调用银联支付",
+      "ReturnType": "Node",
+      "ReturnType_JavaScript": "Node",
+      "ReturnDesc": "{'code':'0','msg':'success'}，其中pay_result的返回值为0表示订单支付成功,1为支付失败,-1为用户取消了支付,-2支付发生未知错误",
+      "Paras": [
+        {
+          "ID": "orderInfo",
+          "Name": "交易流水号",
+          "Type": "String",
+          "Type_JavaScript": "String",
+          "Required": 1,
+          "DefaultValue": "",
+          "Description": "交易流水号，是商户后台通过调用银联后台获取的"
+        },
+        {
+          "ID": "mode",
+          "Name": "测试类型",
+          "Type": "String",
+          "Type_JavaScript": "String",
+          "Required": 1,
+          "DefaultValue": "",
+          "Description": "测试类型，取值为”00”、”01”。”00”表示银联正式环境，若开发者已经接入网银联支付，可用正式环境测试；”01”表示银联测试环境，测试环境仅用于测试插件功能是否正常"
+        },
+        {
+          "ID": "verifyUrl",
+          "Name": "商户后台验证支付结果的接口",
+          "Type": "String",
+          "Type_JavaScript": "String",
+          "Required": 0,
+          "DefaultValue": "",
+          "Description": "根据银联支付开发者网站提供的网站API文档搭建的商户验证支付结果的接口，如不填写则不进行二次校验，以银联控件支付结果为准，建议填写"
+        }
+      ]
+    }
+  ]
+}

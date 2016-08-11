@@ -1,0 +1,25 @@
+{
+      "rule":
+      {
+             "id": 11,  
+             "months": 3,  
+             "rule": "3个月内累计消费2800，用户可免费开通某个省级地区1年的会员",  
+             "price": 2800,  
+             "totalPrice": 2800  
+      },
+      "payMsg": "三个月内累计消费1800、2800、3800则可对应享受一年某一地区、某一省、全国的使用权",  
+      "code": 1,  
+      "msg": "操作成功",  
+      "city":
+      {
+             "name": "河北省",  
+             "id": 130000,  
+             "parentid": 100000,  
+             "cityLevel": 1,  
+             "quarterprice": 280,  
+             "monthprice": 100,  
+             "bought": null,
+             "isLast": null,
+             "yearprice": 1100 
+      }
+}

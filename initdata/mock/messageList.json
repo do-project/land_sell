@@ -1,0 +1,36 @@
+{
+      "totalCount": 2,  
+      "list":
+      [
+             {
+                    "name": null,
+                    "id": 2,  
+                    "type": 42,  
+                    "content": "今天本地区发布了1条公告",  
+                    "source": null,
+                    "operator": null,
+                    "foreignid": null,
+                    "iosflag": null,
+                    "cityid": 130200,  
+                    "androidflag": null,
+                    "projectTypeName": null,
+                    "opt": 1467349587000  
+             },
+             {
+                    "name": "123",  
+                    "id": 1,  
+                    "type": 40,  
+                    "content": "123",  
+                    "source": "123",  
+                    "operator": null,
+                    "foreignid": 10,  
+                    "iosflag": null,
+                    "cityid": 130202,  
+                    "androidflag": null,
+                    "projectTypeName": "电力",  
+                    "opt": 1467349339000  
+             }
+      ],
+      "code": 1,  
+      "msg": "操作成功"
+}

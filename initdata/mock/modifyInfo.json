@@ -1,0 +1,34 @@
+{
+      "code": 1,  
+      "consumer":
+      {
+             "name": "LIAO",  
+             "id": 1,  
+             "code": null,
+             "password": "E10ADC3949BA59ABBE56E057F20F883E",  
+             "citycode": 130200,  
+             "email": "826648504@qq.com",  
+             "enable": 2,  
+             "usertype": 71,  
+             "picurl": " https://developer.deviceone.net/assets/images/logo.png",  
+             "account": "15840524907",  
+             "deviceid": "AjbHKqKRcHg0UBZC63RRwugwhMEghf6JutwMNej4PkYw",  
+             "company": "XXX公司",  
+             "logintype": 70,  
+             "vipName": "VIP1",  
+             "regtime": 1457602918000,  
+             "viplevel": 21,  
+             "receivepush": 1,  
+             "isRegistered": null,
+             "opt": 1467190016000,  
+             "cityName": "河北省唐山市",  
+             "logintoken": "7A04F7C4E86688DBCE3802229A8FE612",  
+             "thirdtoken": "4D64CE9C4DD0C344326E1317BAB94E33",  
+             "projectTypeList": null,
+             "positioncode": 5001,  
+             "sendCodeType": null,
+             "oldPassword": null,
+             "devicetype": "ANDROID" 
+      },
+      "msg": "信息修改成功" 
+}

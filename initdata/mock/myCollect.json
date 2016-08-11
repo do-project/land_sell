@@ -1,0 +1,160 @@
+{
+      "bidList":
+      [
+             {
+                    "name": "5号公路北407标段",  
+                    "id": 22,  
+                    "type": 40,  
+                    "host": "666",  
+                    "content": "777",  
+                    "source": "666",  
+                    "bidcode": "666",  
+                    "winner": null,
+                    "agent": "666",  
+                    "isCollect": null,
+                    "cityName": "路北区",  
+                    "opt": 1466697600000,  
+                    "price": null,
+                    "cityid": 130203,  
+                    "privilege": 0,  
+                    "parentid": 20,  
+                    "enable": 2,  
+                    "fixed": 0,  
+                    "attachpath": "/BidFileUpload/upload/files/1466749158112/555.jpg",  
+                    "projectTypeList":
+                    [
+                           {
+                                  "id": 20,  
+                                  "projectTypeName": "电力",  
+                                  "projecttype": 2,  
+                                  "bidid": 22
+                           },
+                           {
+                                  "id": 21,  
+                                  "projectTypeName": "土建",  
+                                  "projecttype": 3,  
+                                  "bidid": 22
+                           }
+                    ],
+                    "categoryid": 19,  
+                    "projectcode": "TM160624001",  
+                    "attachname": "555.jpg",  
+                    "createdate": 1465315200000,  
+                    "finishdate": 1466611200000
+             },
+             {
+                    "name": "大山屯街里山区2号路段",  
+                    "id": 20,  
+                    "type": 40,  
+                    "host": "666",  
+                    "content": "555",  
+                    "source": "666",  
+                    "bidcode": "666",  
+                    "winner": null,
+                    "agent": "666",  
+                    "isCollect": null,
+                    "cityName": "路北区",  
+                    "opt": 1466697600000,  
+                    "price": null,
+                    "cityid": 130203,  
+                    "privilege": 0,  
+                    "parentid": 19,  
+                    "enable": 2,  
+                    "fixed": 0,  
+                    "attachpath": "/BidFileUpload/upload/files/1466749158112/555.jpg",  
+                    "projectTypeList":
+                    [
+                           {
+                                  "id": 16,  
+                                  "projectTypeName": "电力",  
+                                  "projecttype": 2,  
+                                  "bidid": 20
+                           },
+                           {
+                                  "id": 17,  
+                                  "projectTypeName": "土建",  
+                                  "projecttype": 3,  
+                                  "bidid": 20
+                           }
+                    ],
+                    "categoryid": 19,  
+                    "projectcode": "TM160624001",  
+                    "attachname": "555.jpg",  
+                    "createdate": 1465315200000,  
+                    "finishdate": 1466611200000
+             },
+             {
+                    "name": "葛布新春33号路段",  
+                    "id": 19,  
+                    "type": 40,  
+                    "host": "666",  
+                    "content": "666",  
+                    "source": "666",  
+                    "bidcode": "666",  
+                    "winner": null,
+                    "agent": "666",  
+                    "isCollect": null,
+                    "cityName": "河北省",  
+                    "opt": 1466697600000,  
+                    "price": 123.33,  
+                    "cityid": 130000,  
+                    "privilege": 0,  
+                    "parentid": null,
+                    "enable": 2,  
+                    "fixed": 0,  
+                    "attachpath": "/BidFileUpload/upload/files/1466732418357/666.jpg",  
+                    "projectTypeList":
+                    [
+                           {
+                                  "id": 15,  
+                                  "projectTypeName": "土木",  
+                                  "projecttype": 1,  
+                                  "bidid": 19
+                           }
+                    ],
+                    "categoryid": 19,  
+                    "projectcode": "TM160624001",  
+                    "attachname": "666.jpg",  
+                    "createdate": 1465315200000,  
+                    "finishdate": 1466611200000
+             },
+             {
+                    "name": "石油机械厂的东区厂房",  
+                    "id": 10,  
+                    "type": 40,  
+                    "host": "123",  
+                    "content": "123",  
+                    "source": "123",  
+                    "bidcode": "123",  
+                    "winner": null,
+                    "agent": "123",  
+                    "isCollect": null,
+                    "cityName": "槐荫区",  
+                    "opt": 1466611200000,  
+                    "price": null,
+                    "cityid": 370104,  
+                    "privilege": 0,  
+                    "parentid": null,
+                    "enable": 2,  
+                    "fixed": 0,  
+                    "attachpath": "/BidFileUpload/802311397772380164.jpg",  
+                    "projectTypeList":
+                    [
+                           {
+                                  "id": 4,  
+                                  "projectTypeName": "电力",  
+                                  "projecttype": 2,  
+                                  "bidid": 10
+                           }
+                    ],
+                    "categoryid": 10,  
+                    "projectcode": "DL160623002",  
+                    "attachname": "123.jpg",  
+                    "createdate": 1466611200000,  
+                    "finishdate": 1466784000000
+             }
+      ],
+      "totalCount": 4,  
+      "code": 1,  
+      "msg": "操作成功"
+}

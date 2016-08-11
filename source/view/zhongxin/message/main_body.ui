@@ -1,0 +1,21 @@
+{
+	"RootView":{
+		"x":"0",
+		"width":"750",
+		"y":"0",
+		"type":"do_ALayout",
+		"views":[
+			{
+				"isHeaderVisible":"true",
+				"bgColor":"F4F4F4FF",
+				"isFooterVisible":"true",
+				"templates":"source://view/zhongxin/message/list_cell.ui",
+				"width":"750",
+				"id":"do_ListView_data",
+				"type":"do_ListView",
+				"height":"991"
+			}
+		],
+		"height":"991"
+	}
+}

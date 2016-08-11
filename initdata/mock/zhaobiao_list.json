@@ -1,0 +1,119 @@
+﻿{
+	"code":"1",
+	"data":{
+		   "bidList":
+		   [
+		       {
+		           "name": "333",  
+		           "id": 16,  
+		           "type": 40,  
+		           "host": "333",  
+		           "content": "333",  
+		           "source": "333",  
+		           "projectTypeList":
+		           [
+		               {
+		                   "id": 11,  
+		                   "bidid": 16,  
+		                   "projecttype": 1,  
+		                   "projectTypeName": "土木"
+		               },
+		               {
+		                   "id": 12,  
+		                   "bidid": 16,  
+		                   "projecttype": 2,  
+		                   "projectTypeName": "电力"
+		               }
+		           ],
+		           "cityName": "河北省",  
+		           "parentid": null,
+		           "cityid": 130000,  
+		           "bidcode": "333",  
+		           "price": null,
+		           "agent": "333",  
+		           "winner": null,
+		           "attachname": "333",  
+		           "createdate": 1465315200000,  
+		           "attachpath": "/BidFileUpload/upload/files/1466646427402/333.jpg",  
+		           "finishdate": 1465315200000,  
+		           "projectcode": "TM160623003",  
+		           "categoryid": 16,  
+		           "fixed": 0,  
+		           "opt": 1466611200000
+		       },
+		       {
+		           "name": "789",  
+		           "id": 12,  
+		           "type": 40,  
+		           "host": "789",  
+		           "content": "789",  
+		           "source": "789",  
+		           "projectTypeList":
+		           [
+		               {
+		                   "id": 7,  
+		                   "bidid": 12,  
+		                   "projecttype": 1,  
+		                   "projectTypeName": "土木"
+		               }
+		           ],
+		           "cityName": "河北省",  
+		           "parentid": null,
+		           "cityid": 130000,  
+		           "bidcode": "789",  
+		           "price": null,
+		           "agent": "789",  
+		           "winner": null,
+		           "attachname": "789",  
+		           "createdate": 1464537600000,  
+		           "attachpath": "/BidFileUpload/upload/files/1466644674084/789.png",  
+		           "finishdate": 1464710400000,  
+		           "projectcode": "TM160623002",  
+		           "categoryid": 12,  
+		           "fixed": 0,  
+		           "opt": 1466611200000
+		       },
+		       {
+		           "name": "456",  
+		           "id": 11,  
+		           "type": 40,  
+		           "host": "456",  
+		           "content": "456",  
+		           "source": "456",  
+		           "projectTypeList":
+		           [
+		               {
+		                   "id": 5,  
+		                   "bidid": 11,  
+		                   "projecttype": 2,  
+		                   "projectTypeName": "电力" 
+		               },
+		               {
+		                   "id": 6,  
+		                   "bidid": 11,  
+		                   "projecttype": 3,  
+		                   "projectTypeName": "土建"
+		               }
+		           ],
+		           "cityName": "秦皇岛市",  
+		           "parentid": null,
+		           "cityid": 130300,  
+		           "bidcode": "456",  
+		           "price": null,
+		           "agent": "456",  
+		           "winner": null,
+		           "attachname": "456",  
+		           "createdate": 1465920000000,  
+		           "attachpath": "/BidFileUpload/upload/files/1466644187289.jpg/456",  
+		           "finishdate": 1466697600000,  
+		           "projectcode": "DL160623003",  
+		           "categoryid": 11,  
+		           "fixed": 0,  
+		           "opt": 1466611200000
+		       }
+		   ],
+		   "totalCount": 3,  
+		   "code": 1,  
+		   "msg": "操作成功"
+		}
+}

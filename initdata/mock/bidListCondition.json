@@ -1,0 +1,453 @@
+{
+   "countyList":
+   [
+       {
+           "name": "长安区",  
+           "id": 130102,  
+           "isLast": 1,  
+           "cityLevel": 3,  
+           "bought": 0,  
+           "yearprice": 110,  
+           "quarterprice": 27,  
+           "monthprice": 10,  
+           "parentid": 130100
+       },
+       {
+           "name": "桥西区",  
+           "id": 130104,  
+           "isLast": 1,  
+           "cityLevel": 3,  
+           "bought": 0,  
+           "yearprice": 110,  
+           "quarterprice": 27,  
+           "monthprice": 10,  
+           "parentid": 130100
+       },
+       {
+           "name": "新华区",  
+           "id": 130105,  
+           "isLast": 1,  
+           "cityLevel": 3,  
+           "bought": 0,  
+           "yearprice": 110,  
+           "quarterprice": 27,  
+           "monthprice": 10,  
+           "parentid": 130100
+       },
+       {
+           "name": "井陉矿区",  
+           "id": 130107,  
+           "isLast": 1,  
+           "cityLevel": 3,  
+           "bought": 0,  
+           "yearprice": 110,  
+           "quarterprice": 27,  
+           "monthprice": 10,  
+           "parentid": 130100
+       },
+       {
+           "name": "裕华区",  
+           "id": 130108,  
+           "isLast": 1,  
+           "cityLevel": 3,  
+           "bought": 0,  
+           "yearprice": 110,  
+           "quarterprice": 27,  
+           "monthprice": 10,  
+           "parentid": 130100
+       },
+       {
+           "name": "藁城区",  
+           "id": 130109,  
+           "isLast": 1,  
+           "cityLevel": 3,  
+           "bought": 0,  
+           "yearprice": 110,  
+           "quarterprice": 27,  
+           "monthprice": 10,  
+           "parentid": 130100
+       },
+       {
+           "name": "鹿泉区",  
+           "id": 130110,  
+           "isLast": 1,  
+           "cityLevel": 3,  
+           "bought": 0,  
+           "yearprice": 110,  
+           "quarterprice": 27,  
+           "monthprice": 10,  
+           "parentid": 130100
+       },
+       {
+           "name": "栾城区",  
+           "id": 130111,  
+           "isLast": 1,  
+           "cityLevel": 3,  
+           "bought": 0,  
+           "yearprice": 110,  
+           "quarterprice": 27,  
+           "monthprice": 10,  
+           "parentid": 130100
+       },
+       {
+           "name": "井陉县",  
+           "id": 130121,  
+           "isLast": 1,  
+           "cityLevel": 3,  
+           "bought": 0,  
+           "yearprice": 110,  
+           "quarterprice": 27,  
+           "monthprice": 10,  
+           "parentid": 130100
+       },
+       {
+           "name": "正定县",  
+           "id": 130123,  
+           "isLast": 1,  
+           "cityLevel": 3,  
+           "bought": 0,  
+           "yearprice": 110,  
+           "quarterprice": 27,  
+           "monthprice": 10,  
+           "parentid": 130100
+       },
+       {
+           "name": "行唐县",  
+           "id": 130125,  
+           "isLast": 1,  
+           "cityLevel": 3,  
+           "bought": 0,  
+           "yearprice": 110,  
+           "quarterprice": 27,  
+           "monthprice": 10,  
+           "parentid": 130100
+       },
+       {
+           "name": "灵寿县",  
+           "id": 130126,  
+           "isLast": 1,  
+           "cityLevel": 3,  
+           "bought": 0,  
+           "yearprice": 110,  
+           "quarterprice": 27,  
+           "monthprice": 10,  
+           "parentid": 130100
+       },
+       {
+           "name": "高邑县",  
+           "id": 130127,  
+           "isLast": 1,  
+           "cityLevel": 3,  
+           "bought": 0,  
+           "yearprice": 110,  
+           "quarterprice": 27,  
+           "monthprice": 10,  
+           "parentid": 130100
+       },
+       {
+           "name": "深泽县",  
+           "id": 130128,  
+           "isLast": 1,  
+           "cityLevel": 3,  
+           "bought": 0,  
+           "yearprice": 110,  
+           "quarterprice": 27,  
+           "monthprice": 10,  
+           "parentid": 130100
+       },
+       {
+           "name": "赞皇县",  
+           "id": 130129,  
+           "isLast": 1,  
+           "cityLevel": 3,  
+           "bought": 0,  
+           "yearprice": 110,  
+           "quarterprice": 27,  
+           "monthprice": 10,  
+           "parentid": 130100
+       },
+       {
+           "name": "无极县",  
+           "id": 130130,  
+           "isLast": 1,  
+           "cityLevel": 3,  
+           "bought": 0,  
+           "yearprice": 110,  
+           "quarterprice": 27,  
+           "monthprice": 10,  
+           "parentid": 130100
+       },
+       {
+           "name": "平山县",  
+           "id": 130131,  
+           "isLast": 1,  
+           "cityLevel": 3,  
+           "bought": 0,  
+           "yearprice": 110,  
+           "quarterprice": 27,  
+           "monthprice": 10,  
+           "parentid": 130100
+       },
+       {
+           "name": "元氏县",  
+           "id": 130132,  
+           "isLast": 1,  
+           "cityLevel": 3,  
+           "bought": 0,  
+           "yearprice": 110,  
+           "quarterprice": 27,  
+           "monthprice": 10,  
+           "parentid": 130100
+       },
+       {
+           "name": "赵县",  
+           "id": 130133,  
+           "isLast": 1,  
+           "cityLevel": 3,  
+           "bought": 0,  
+           "yearprice": 110,  
+           "quarterprice": 27,  
+           "monthprice": 10,  
+           "parentid": 130100
+       },
+       {
+           "name": "辛集市",  
+           "id": 130181,  
+           "isLast": 1,  
+           "cityLevel": 3,  
+           "bought": 0,  
+           "yearprice": 110,  
+           "quarterprice": 27,  
+           "monthprice": 10,  
+           "parentid": 130100
+       },
+       {
+           "name": "晋州市",  
+           "id": 130183,  
+           "isLast": 1,  
+           "cityLevel": 3,  
+           "bought": 0,  
+           "yearprice": 110,  
+           "quarterprice": 27,  
+           "monthprice": 10,  
+           "parentid": 130100
+       },
+       {
+           "name": "新乐市",  
+           "id": 130184,  
+           "isLast": 1,  
+           "cityLevel": 3,  
+           "bought": 0,  
+           "yearprice": 110,  
+           "quarterprice": 27,  
+           "monthprice": 10,  
+           "parentid": 130100
+       }
+   ],
+   "cityList":
+   [
+       {
+           "name": "石家庄市",  
+           "id": 130100,  
+           "isLast": 0,  
+           "cityLevel": 2,  
+           "bought": 0,  
+           "yearprice": 440,  
+           "quarterprice": 110,  
+           "monthprice": 40,  
+           "parentid": 130000
+       },
+       {
+           "name": "唐山市",  
+           "id": 130200,  
+           "isLast": 0,  
+           "cityLevel": 2,  
+           "bought": 0,  
+           "yearprice": 440,  
+           "quarterprice": 110,  
+           "monthprice": 40,  
+           "parentid": 130000
+       },
+       {
+           "name": "秦皇岛市",  
+           "id": 130300,  
+           "isLast": 0,  
+           "cityLevel": 2,  
+           "bought": 0,  
+           "yearprice": 440,  
+           "quarterprice": 110,  
+           "monthprice": 40,  
+           "parentid": 130000
+       },
+       {
+           "name": "邯郸市",  
+           "id": 130400,  
+           "isLast": 0,  
+           "cityLevel": 2,  
+           "bought": 0,  
+           "yearprice": 440,  
+           "quarterprice": 110,  
+           "monthprice": 40,  
+           "parentid": 130000
+       },
+       {
+           "name": "邢台市",  
+           "id": 130500,  
+           "isLast": 0,  
+           "cityLevel": 2,  
+           "bought": 0,  
+           "yearprice": 440,  
+           "quarterprice": 110,  
+           "monthprice": 40,  
+           "parentid": 130000
+       },
+       {
+           "name": "保定市",  
+           "id": 130600,  
+           "isLast": 0,  
+           "cityLevel": 2,  
+           "bought": 0,  
+           "yearprice": 440,  
+           "quarterprice": 110,  
+           "monthprice": 40,  
+           "parentid": 130000
+       },
+       {
+           "name": "张家口市",  
+           "id": 130700,  
+           "isLast": 0,  
+           "cityLevel": 2,  
+           "bought": 0,  
+           "yearprice": 440,  
+           "quarterprice": 110,  
+           "monthprice": 40,  
+           "parentid": 130000
+       },
+       {
+           "name": "承德市",  
+           "id": 130800,  
+           "isLast": 0,  
+           "cityLevel": 2,  
+           "bought": 0,  
+           "yearprice": 440,  
+           "quarterprice": 110,  
+           "monthprice": 40,  
+           "parentid": 130000
+       },
+       {
+           "name": "沧州市",  
+           "id": 130900,  
+           "isLast": 0,  
+           "cityLevel": 2,  
+           "bought": 0,  
+           "yearprice": 440,  
+           "quarterprice": 110,  
+           "monthprice": 40,  
+           "parentid": 130000
+       },
+       {
+           "name": "廊坊市",  
+           "id": 131000,  
+           "isLast": 0,  
+           "cityLevel": 2,  
+           "bought": 0,  
+           "yearprice": 440,  
+           "quarterprice": 110,  
+           "monthprice": 40,  
+           "parentid": 130000
+       },
+       {
+           "name": "衡水市",  
+           "id": 131100,  
+           "isLast": 0,  
+           "cityLevel": 2,  
+           "bought": 0,  
+           "yearprice": 440,  
+           "quarterprice": 110,  
+           "monthprice": 40,  
+           "parentid": 130000
+       }
+   ],
+   "defaultCounty": 130130,  
+   "defaultCity": 130100,  
+   "projectTypes":
+   [
+       {
+           "id": 1,  
+           "name": "土木",  
+           "enable": 2,  
+           "code": "TM",  
+           "isPrefer": 1
+       },
+       {
+           "id": 2,  
+           "name": "电力",  
+           "enable": 2,  
+           "code": "DL",  
+           "isPrefer": 1
+       },
+       {
+           "id": 3,  
+           "name": "商用",  
+           "enable": 2,  
+           "code": "SY",  
+           "isPrefer": 1
+       },
+       {
+           "id": 4,  
+           "name": "商住",  
+           "enable": 2,  
+           "code": "SZ",  
+           "isPrefer": 1
+       },
+       {
+           "id": 5,  
+           "name": "公共设施",  
+           "enable": 2,  
+           "code": "GG",  
+           "isPrefer": 1
+       },
+       {
+           "id": 6,  
+           "name": "科教",  
+           "enable": 2,  
+           "code": "KJ",  
+           "isPrefer": 1
+       },
+       {
+           "id": 7,  
+           "name": "土建",  
+           "enable": 2,  
+           "code": "TJ",  
+           "isPrefer": 1
+       }
+   ],
+   "provinceList":
+   [
+       {
+           "name": "河北省",  
+           "id": 130000,  
+           "isLast": 0,  
+           "cityLevel": 1,  
+           "bought": 0,  
+           "yearprice": 1100,  
+           "quarterprice": 280,  
+           "monthprice": 100,  
+           "parentid": 100000
+       },
+       {
+           "name": "山东省",  
+           "id": 370000,  
+           "isLast": 0,  
+           "cityLevel": 1,  
+           "bought": 0,  
+           "yearprice": 1100,  
+           "quarterprice": 280,  
+           "monthprice": 100,  
+           "parentid": 100000
+       }
+   ],
+   "code": 1,  
+   "defaultProvince": 130000,  
+   "msg": "操作成功"
+}

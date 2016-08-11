@@ -1,0 +1,98 @@
+﻿{
+  "ID": "do_RichLabel",
+  "IsContainer": "0",
+  "Type": "UI",
+  "Name": "富文本标签框",
+  "Version": "Internal",
+  "Description": "富文本签框，用于显示HTML标签内容，设置字体大小、高亮、超链接，默认只支持HTML一些基础标签。<br /><br />支持自定义a标签点击事件，\"href\"要以\"#\"打头，点击时会触发\"linkTouch\"事件，例如：\"&lt;a href=\"#my\"&gt;DeviceOne&lt;/a&gt;\"，其他情况则不触发事件；<br /><br />如a标签\"href\"属性内容以http:或者https开头，会自动使用外部浏览器打开；以mail:打头，会自动使用外部邮箱打开；如果是tel:打头，会自动使用电话拨号打开<br /><br />Android要支持的标签更少一点，另外不支持css，总之不能把这个组件当成Webview组件来加载任意的html。<br /><br />只支持加载html内容，不支持直接加载一个html文件。<br /><br />Android下支持width，height都为-1，根据内容自动适应大小，ios只支持height为-1.<br />",
+  "Icon": "https://do-store.oss-cn-beijing.aliyuncs.com/D/20160121/do_RichLabel/富文本.jpg",
+  "IOS": {
+    "Support": 1,
+    "MinVersion": "7.0"
+  },
+  "Android": {
+    "Support": 1,
+    "MinVersion": "4.0"
+  },
+  "Windows": {
+    "Support": 0,
+    "MinVersion": ""
+  },
+  "WindowsPhone": {
+    "Support": 0,
+    "MinVersion": ""
+  },
+  "Html": {
+    "Support": 1,
+    "MinVersion": "5.0"
+  },
+  "Properties": [
+    {
+      "ID": "maxHeight",
+      "Name": "最大高度",
+      "Type": "Number",
+      "Type_JavaScript": "Number",
+      "DefaultValue": "",
+      "EditType": "0",
+      "Group": "",
+      "Description": "label的height为－1的时候，label会根据text内容自动适配变高，但是不会高于maxHeight",
+      "Design": {
+        "Type": "Text",
+        "Data": []
+      }
+    },
+    {
+      "ID": "maxLines",
+      "Name": "最多行数",
+      "Type": "Number",
+      "Type_JavaScript": "Number",
+      "DefaultValue": "1",
+      "EditType": "0",
+      "Group": "",
+      "Description": "最大行数，缺省是1，如果为小于或等于0表示不限行数\n说明：设置文本内容显示最大行数，如显示内容超过了最大行值则结尾用省略号\"...\"表示；\niOS平台不支持这个属性",
+      "Design": {
+        "Type": "Text",
+        "Data": []
+      }
+    },
+    {
+      "ID": "maxWidth",
+      "Name": "最大宽度",
+      "Type": "Number",
+      "Type_JavaScript": "Number",
+      "DefaultValue": "",
+      "EditType": "0",
+      "Group": "",
+      "Description": "设置文本框显示最大宽度值，只有在设置\"width\"属性值为-1时有效，否则不起作用；\niOS平台不支持宽度设置为-1",
+      "Design": {
+        "Type": "Text",
+        "Data": []
+      }
+    },
+    {
+      "ID": "text",
+      "Name": "文本显示内容",
+      "Type": "String",
+      "Type_JavaScript": "String",
+      "DefaultValue": "",
+      "EditType": "1",
+      "Group": "",
+      "Description": " 显示标签文本，说明：设置HTML标签显示富文本内容",
+      "Design": {
+        "Type": "Text",
+        "Data": []
+      }
+    }
+  ],
+  "Events": [
+    {
+      "ID": "linkTouch",
+      "Description": "链接点击事件",
+      "ReturnType": "Node",
+      "ReturnType_JavaScript": "Node",
+      "ReturnDesc": "有时候用户需要在点击label里的某一段文字触发一个自定义的动作，比如&lt;a href='#aaa' id='xx'&gt; 点击我&lt;/a&gt; ，注意href的值必须是#开始<br />则用户点击“点击我”这个link的时候会触发一个linkTouch事件，返回的data是一个JSON对象类型<br /><br />{value:'点击我' href:'#aaa', id:'xx'}<br /><br />用户可以根据href的值不同case做不同的操作<br /><br /><pre class=\"brush: js;toolbar:false;\">\n//text的值是<a href=\"#my\">自定义事件</a>\n//通过linkTouch和回调回来的d来确定richlabel里的自定义点击事件\nlabel.on(\"linkTouch\",function(d){\n\tnf.alert(\"自定义事件:\"+JSON.stringify(d));\n});\n</pre><br /><br />"
+    }
+  ],
+  "syncMethodes": [],
+  "asyncMethodes": []
+}

@@ -1,0 +1,29 @@
+{
+      "code": 7,  
+      "consumer":
+      {
+             "name": null,
+             "id": 3,  
+             "password": "FCEA920F7412B5DA7BE0CF42B8C93759",  
+             "code": null,
+             "enable": 2,  
+             "account": "15840524906",  
+             "logintype": 70,  
+             "picurl": null,
+             "deviceid": "aaaaaaaa",  
+             "usertype": 70,  
+             "regtime": 1466410374000,  
+             "email": null,
+             "company": null,
+             "citycode": null,
+             "opt": 1466410374000,  
+             "isRegistered": null,
+             "logintoken": "85AACDA965BDC69EA2FA013D9A292695",  
+             "positioncode": null,
+             "oldPassword": null,
+             "thirdtoken": null,
+             "devicetype": "ANDROID",  
+             "sendCodeType": null
+      },
+      "msg": "请完善信息"
+}

@@ -1,0 +1,29 @@
+{
+      "code": 1,  
+      "consumer":
+      {
+             "name": "AAA",  
+             "id": 2,  
+             "enable": 2,  
+             "password": "",  
+             "code": null,
+             "usertype": 71,  
+             "account": "15840524908",  
+             "deviceid": "EIEIEIE",  
+             "opt": 1466401985000,  
+             "email": "xxx@163.com",  
+             "company": "XX公司",  
+             "citycode": 130102,  
+             "regtime": 1466401974000,  
+             "logintype": 71,  
+             "picurl": "/WttFileUpload/app/images/headpic/7cd74b4c-1220-4bb7-b6a9-6d74b472f553.jpg",  
+             "positioncode": 5002,  
+             "logintoken": "6162439A6C742686FDEBF810C42C4513",  
+             "oldPassword": null,
+             "isRegistered": null,
+             "devicetype": "IOS",  
+             "thirdtoken": "4D64CE9C4DD0C344326E1317BAB94E32",  
+             "sendCodeType": null
+      },
+      "msg": "登录成功"
+}

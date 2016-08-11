@@ -1,0 +1,267 @@
+﻿{
+  "ID": "do_ExpandableListView",
+  "IsContainer": "0",
+  "Type": "UI",
+  "Name": "List分组视图",
+  "Version": "Internal",
+  "Description": "一个可分组可展开的List视图",
+  "Icon": "https://do-store.oss-cn-beijing.aliyuncs.com/D/20160121/do_ExpandableListView/可展开列表.jpg",
+  "IOS": {
+    "Support": 1,
+    "MinVersion": "7.0"
+  },
+  "Android": {
+    "Support": 1,
+    "MinVersion": "4.0"
+  },
+  "Windows": {
+    "Support": 1,
+    "MinVersion": "10"
+  },
+  "WindowsPhone": {
+    "Support": 1,
+    "MinVersion": "10"
+  },
+  "Html": {
+    "Support": 1,
+    "MinVersion": "5.0"
+  },
+  "Properties": [
+    {
+      "ID": "allExpanded",
+      "Name": "是否全部展开",
+      "Type": "Bool",
+      "Type_JavaScript": "Bool",
+      "DefaultValue": "false",
+      "EditType": "0",
+      "Group": "UI",
+      "Description": "控制组件初始化时所有group是否全部展开",
+      "Design": {
+        "Type": "Boolean",
+        "Data": []
+      }
+    },
+    {
+      "ID": "canScrollToTop",
+      "Name": "是否滚动到屏幕顶部",
+      "Type": "Bool",
+      "Type_JavaScript": "Bool",
+      "DefaultValue": "true",
+      "EditType": "0",
+      "Group": "UI",
+      "Description": "属性设置成true时可以通过点击手机状态栏返回内容的顶部；仅支持iOS平台",
+      "Design": {
+        "Type": "Boolean",
+        "Data": []
+      }
+    },
+    {
+      "ID": "childTemplate",
+      "Name": "子项模板UI文件",
+      "Type": "String",
+      "Type_JavaScript": "String",
+      "DefaultValue": "",
+      "EditType": "0",
+      "Group": "",
+      "Description": "child对应的模板UI文件,如： source://view/child.ui，支持多模版",
+      "Design": {
+        "Type": "Richtext",
+        "Data": []
+      }
+    },
+    {
+      "ID": "groupTemplate",
+      "Name": "组模板UI文件",
+      "Type": "String",
+      "Type_JavaScript": "String",
+      "DefaultValue": "",
+      "EditType": "0",
+      "Group": "",
+      "Description": "group对应的模板UI文件,如： source://view/group.ui，支持多模版",
+      "Design": {
+        "Type": "Richtext",
+        "Data": []
+      }
+    },
+    {
+      "ID": "isShowbar",
+      "Name": "是否支持显示滚动条效果",
+      "Type": "Bool",
+      "Type_JavaScript": "Bool",
+      "DefaultValue": "true",
+      "EditType": "0",
+      "Group": "",
+      "Description": "为true的时候，当内容超出视图的边界，会出现滚动条标识。",
+      "Design": {
+        "Type": "Boolean",
+        "Data": []
+      }
+    },
+    {
+      "ID": "selectedColor",
+      "Name": "按下cell显示的背景色",
+      "Type": "String",
+      "Type_JavaScript": "String",
+      "DefaultValue": "ffffff00",
+      "EditType": "0",
+      "Group": "",
+      "Description": "",
+      "Design": {
+        "Type": "Color",
+        "Data": []
+      }
+    }
+  ],
+  "Events": [
+    {
+      "ID": "childTouch",
+      "Description": "点击child中的cell触发",
+      "ReturnType": "Node",
+      "ReturnType_JavaScript": "Node",
+      "ReturnDesc": "当前group的索引值和cell的索引值,如：{'groupIndex':1,'childIndex':5}"
+    },
+    {
+      "ID": "groupCollapse",
+      "Description": "group收缩触发",
+      "ReturnType": "Number",
+      "ReturnType_JavaScript": "Number",
+      "ReturnDesc": "当前group中cell的索引值"
+    },
+    {
+      "ID": "groupExpand",
+      "Description": "group展开触发",
+      "ReturnType": "Number",
+      "ReturnType_JavaScript": "Number",
+      "ReturnDesc": "当前group中cell的索引值"
+    },
+    {
+      "ID": "groupTouch",
+      "Description": "点击group中的cell触发",
+      "ReturnType": "Number",
+      "ReturnType_JavaScript": "Number",
+      "ReturnDesc": "当前cell的索引值"
+    },
+    {
+      "ID": "scroll",
+      "Description": "滑动事件",
+      "ReturnType": "String",
+      "ReturnType_JavaScript": "String",
+      "ReturnDesc": "Android平台返回{firstVisiblePosition,lastVisiblePosition}，其中firstVisiblePosition表示在组件高度范围内第一个可见cell的位置，lastVisiblePosition表示在组件高度范围内最后一个可见cell的位置；iOS和windows平台返回offset表示滚动的位移"
+    }
+  ],
+  "syncMethodes": [
+    {
+      "ID": "bindItems",
+      "Name": "绑定item的数据",
+      "Description": "可绑定listData实例",
+      "ReturnType": "",
+      "ReturnType_JavaScript": "",
+      "ReturnDesc": "",
+      "Paras": [
+        {
+          "ID": "groupData",
+          "Name": "组数据",
+          "Type": "Node",
+          "Type_JavaScript": "Node",
+          "Required": 0,
+          "DefaultValue": "",
+          "Description": ""
+        },
+        {
+          "ID": "childData",
+          "Name": "子项数据",
+          "Type": "Node",
+          "Type_JavaScript": "Node",
+          "Required": 0,
+          "DefaultValue": "",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "ID": "collapseGroup",
+      "Name": "收缩组",
+      "Description": "",
+      "ReturnType": "",
+      "ReturnType_JavaScript": "",
+      "ReturnDesc": "",
+      "Paras": [
+        {
+          "ID": "indexs",
+          "Name": "位置",
+          "Type": "Node",
+          "Type_JavaScript": "Node",
+          "Required": 1,
+          "DefaultValue": "",
+          "Description": "同时收缩一组或多组，indexs表示视图的第几组，从0开始计数"
+        }
+      ]
+    },
+    {
+      "ID": "expandGroup",
+      "Name": "展开组",
+      "Description": "",
+      "ReturnType": "",
+      "ReturnType_JavaScript": "",
+      "ReturnDesc": "",
+      "Paras": [
+        {
+          "ID": "indexs",
+          "Name": "位置",
+          "Type": "Node",
+          "Type_JavaScript": "Node",
+          "Required": 1,
+          "DefaultValue": "",
+          "Description": "同时展开一组或多组，indexs表示视图的第几组，从0开始计数"
+        }
+      ]
+    },
+    {
+      "ID": "refreshItems",
+      "Name": "刷新item数据",
+      "Description": "",
+      "ReturnType": "",
+      "ReturnType_JavaScript": "",
+      "ReturnDesc": "",
+      "Paras": []
+    },
+    {
+      "ID": "scrollToPosition",
+      "Name": "平滑地滚动到特定位置",
+      "Description": "",
+      "ReturnType": "",
+      "ReturnType_JavaScript": "",
+      "ReturnDesc": "",
+      "Paras": [
+        {
+          "ID": "groupIndex",
+          "Name": "group位置",
+          "Type": "Number",
+          "Type_JavaScript": "Number",
+          "Required": 0,
+          "DefaultValue": "0",
+          "Description": "表示第几组，从0开始计数，缺省值是0"
+        },
+        {
+          "ID": "childIndex",
+          "Name": "child位置",
+          "Type": "Number",
+          "Type_JavaScript": "Number",
+          "Required": 0,
+          "DefaultValue": "0",
+          "Description": "表示某一组的第几行，从0开始计数，缺省值是0"
+        },
+        {
+          "ID": "isSmooth",
+          "Name": "是否有滚动效果",
+          "Type": "Bool",
+          "Type_JavaScript": "Bool",
+          "Required": 0,
+          "DefaultValue": "false",
+          "Description": "缺省是false表示直接跳转到某一行，没有任何平滑过渡的效果。为true表示平滑到那一行；其中为false的时候是不会触发scroll事件的，为true会触发；windows平台不支持该效果"
+        }
+      ]
+    }
+  ],
+  "asyncMethodes": []
+}

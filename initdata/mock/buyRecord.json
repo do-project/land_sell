@@ -1,0 +1,28 @@
+{
+      "totalCount": 1,  
+      "orders":
+      [
+             {
+                    "name": "河北省秦皇岛市会员(12个月)购买",  
+                    "id": 1,  
+                    "used": 1,  
+                    "months": 12,  
+                    "daypassed": 4,  
+                    "paytime": 1466730383000,  
+                    "payprice": 2800,  
+                    "deleted": 0,  
+                    "dayofweek": 6,  
+                    "cityid": 130300,  
+                    "price": 0,  
+                    "payway": 100,  
+                    "paystatus": 31,  
+                    "opt": 1467014212000,  
+                    "weborderno": "wx1234jsklfjdsklfj",  
+                    "logintoken": null,
+                    "createtime": 1466730378000,  
+                    "consumerid": 1
+             }
+      ],
+      "code": 1,  
+      "msg": "操作成功"  
+}

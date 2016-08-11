@@ -1,0 +1,128 @@
+{
+      "cities":
+      [
+             {
+                    "name": "石家庄市",  
+                    "id": 130100,  
+                    "monthprice": 40,  
+                    "quarterprice": 110,  
+                    "parentid": 130000,  
+                    "yearprice": 440,  
+                    "cityLevel": 2,  
+                    "isLast": 0,  
+                    "bought": 1  
+             },
+             {
+                    "name": "唐山市",  
+                    "id": 130200,  
+                    "monthprice": 40,  
+                    "quarterprice": 110,  
+                    "parentid": 130000,  
+                    "yearprice": 440,  
+                    "cityLevel": 2,  
+                    "isLast": 0,  
+                    "bought": 0 
+             },
+             {
+                    "name": "秦皇岛市",  
+                    "id": 130300,  
+                    "monthprice": 40,  
+                    "quarterprice": 110,  
+                    "parentid": 130000,  
+                    "yearprice": 440,  
+                    "cityLevel": 2,  
+                    "isLast": 0,  
+                    "bought": 0 
+             },
+             {
+                    "name": "邯郸市",  
+                    "id": 130400,  
+                    "monthprice": 40,  
+                    "quarterprice": 110,  
+                    "parentid": 130000,  
+                    "yearprice": 440,  
+                    "cityLevel": 2,  
+                    "isLast": 0,  
+                    "bought": 0 
+             },
+             {
+                    "name": "邢台市",  
+                    "id": 130500,  
+                    "monthprice": 40,  
+                    "quarterprice": 110,  
+                    "parentid": 130000,  
+                    "yearprice": 440,  
+                    "cityLevel": 2,  
+                    "isLast": 0,  
+                    "bought": 0
+             },
+             {
+                    "name": "保定市",  
+                    "id": 130600,  
+                    "monthprice": 40,  
+                    "quarterprice": 110,  
+                    "parentid": 130000,  
+                    "yearprice": 440,  
+                    "cityLevel": 2,  
+                    "isLast": 0,  
+                    "bought": 0 
+             },
+             {
+                    "name": "张家口市",  
+                    "id": 130700,  
+                    "monthprice": 40,  
+                    "quarterprice": 110,  
+                    "parentid": 130000,  
+                    "yearprice": 440,  
+                    "cityLevel": 2,  
+                    "isLast": 0,  
+                    "bought": 0 
+             },
+             {
+                    "name": "承德市",  
+                    "id": 130800,  
+                    "monthprice": 40,  
+                    "quarterprice": 110,  
+                    "parentid": 130000,  
+                    "yearprice": 440,  
+                    "cityLevel": 2,  
+                    "isLast": 0,  
+                    "bought": 0 
+             },
+             {
+                    "name": "沧州市",  
+                    "id": 130900,  
+                    "monthprice": 40,  
+                    "quarterprice": 110,  
+                    "parentid": 130000,  
+                    "yearprice": 440,  
+                    "cityLevel": 2,  
+                    "isLast": 0,  
+                    "bought": 0 
+             },
+             {
+                    "name": "廊坊市",  
+                    "id": 131000,  
+                    "monthprice": 40,  
+                    "quarterprice": 110,  
+                    "parentid": 130000,  
+                    "yearprice": 440,  
+                    "cityLevel": 2,  
+                    "isLast": 0,  
+                    "bought": 0 
+             },
+             {
+                    "name": "衡水市",  
+                    "id": 131100,  
+                    "monthprice": 40,  
+                    "quarterprice": 110,  
+                    "parentid": 130000,  
+                    "yearprice": 440,  
+                    "cityLevel": 2,  
+                    "isLast": 0,  
+                    "bought": 0
+             }
+      ],
+      "code": 1,  
+      "msg": "操作成功" 
+}

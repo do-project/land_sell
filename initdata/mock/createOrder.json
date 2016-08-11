@@ -1,0 +1,22 @@
+{
+      "order":
+      {
+             "id": 4,  
+             "used": 0,  
+             "months": 12,  
+             "payprice": 0,  
+             "deleted": 0,  
+             "paytime": 1467014212200,  
+             "weborderno": null,
+             "opt": 1467014212200,  
+             "paystatus": 31,  
+             "logintoken": "7A04F7C4E86688DBCE3802229A8FE612",  
+             "createtime": 1467014212200,  
+             "consumerid": 1,  
+             "price": 0,  
+             "cityid": 130300,  
+             "payway": 103
+      },
+      "code": 1,  
+      "msg": "操作成功"
+}

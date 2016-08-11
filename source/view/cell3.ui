@@ -1,0 +1,30 @@
+{
+	"RootView":{
+		"x":"0",
+		"width":"250",
+		"y":"0",
+		"type":"do_ALayout",
+		"views":[
+			{
+				"width":"220",
+				"x":"20",
+				"y":"33",
+				"fontSize":"32",
+				"id":"do_Label_3",
+				"type":"do_Label",
+				"fontColor":"333333FF",
+				"height":"40"
+			},
+			{
+				"bgColor":"FF8247FF",
+				"width":"220",
+				"x":"20",
+				"y":"85",
+				"id":"do_ALayout_line",
+				"type":"do_ALayout",
+				"height":"3"
+			}
+		],
+		"height":"100"
+	}
+}

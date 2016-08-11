@@ -1,0 +1,64 @@
+{
+      "positions":
+      [
+             {
+                    "value": "副总裁",  
+                    "name": "公司职位",  
+                    "id": 5000  
+             },
+             {
+                    "value": "总经理",  
+                    "name": "公司职位",  
+                    "id": 5001 
+             },
+             {
+                    "value": "采购经理",  
+                    "name": "公司职位",  
+                    "id": 5002 
+             },
+             {
+                    "value": "采购主管",  
+                    "name": "公司职位",  
+                    "id": 5003
+             },
+             {
+                    "value": "采购员",  
+                    "name": "公司职位",  
+                    "id": 5004 
+             }
+      ],
+      "cities":
+      [
+             {
+                    "name": "河北省",  
+                    "id": 130000,  
+                    "monthprice": 100,  
+                    "quarterprice": 280,  
+                    "yearprice": 1100,  
+                    "parentid": 100000
+             }
+      ],
+      "projectTypes":
+      [
+             {
+                    "id": 1,  
+                    "name": "土木",  
+                    "enable": 2,  
+                    "code": "TM" 
+             },
+             {
+                    "id": 2,  
+                    "name": "电力",  
+                    "enable": 2,  
+                    "code": "DL"
+             },
+             {
+                    "id": 3,  
+                    "name": "土建",  
+                    "enable": 2,  
+                    "code": "TJ"  
+             }
+      ],
+      "code": 1,  
+      "msg": "操作成功"
+}

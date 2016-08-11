@@ -1,0 +1,13 @@
+﻿{
+	"code":"1",
+	"data":{
+        "id": "001", 
+		"code": "liud", 
+		"name": "刘东", 
+		"sex": "1", 
+		"phone": "13918888888", 
+		"email": "liud@gmail.com", 
+		"deptID": "0000", 
+		"roleCode": "user"
+	}
+}

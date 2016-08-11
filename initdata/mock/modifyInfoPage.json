@@ -1,0 +1,34 @@
+{
+      "code": 1,  
+      "consumer":
+      {
+             "name": "夏天",  
+             "id": 1,  
+             "password": "E10ADC3949BA59ABBE56E057F20F883E",  
+             "code": null,
+             "viplevel": 21,  
+             "vipName": "VIP1",  
+             "regtime": 1457602918000,  
+             "email": "liaoxw@Bluemobi.cn",  
+             "usertype": 71,  
+             "account": "15840524907",  
+             "deviceid": "AjbHKqKRcHg0UBZC63RRwugwhMEghf6JutwMNej4PkYw",  
+             "picurl": "http://www.easyicon.net/api/resizeApi.php?id=1081923&size=96",  
+             "company": "北京杯子科技有限公司",  
+             "logintype": 70,  
+             "enable": 2,  
+             "isRegistered": null,
+             "receivepush": 1,  
+             "thirdtoken": "4D64CE9C4DD0C344326E1317BAB94E33",  
+             "projectTypeList": null,
+             "sendCodeType": null,
+             "oldPassword": null,
+             "positioncode": 5001,  
+             "devicetype": "ANDROID",  
+             "citycode": 130130,  
+             "logintoken": "7A04F7C4E86688DBCE3802229A8FE612",  
+             "opt": 1466927812000,  
+             "cityName": "河北省石家庄市无极县" 
+      },
+      "msg": "操作成功"
+}

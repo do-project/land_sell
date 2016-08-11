@@ -1,0 +1,183 @@
+{
+    "countyList": [],
+    "cityList": [
+        {
+            "name": "石家庄市",
+            "id": 130100,
+            "cityLevel": 2,
+            "bought": 1,
+            "isLast": 0,
+            "parentid": 130000,
+            "yearprice": 440,
+            "monthprice": 40,
+            "quarterprice": 110
+        },
+        {
+            "name": "唐山市",
+            "id": 130200,
+            "cityLevel": 2,
+            "bought": 0,
+            "isLast": 0,
+            "parentid": 130000,
+            "yearprice": 440,
+            "monthprice": 40,
+            "quarterprice": 110
+        },
+        {
+            "name": "秦皇岛市",
+            "id": 130300,
+            "cityLevel": 2,
+            "bought": 0,
+            "isLast": 0,
+            "parentid": 130000,
+            "yearprice": 440,
+            "monthprice": 40,
+            "quarterprice": 110
+        },
+        {
+            "name": "邯郸市",
+            "id": 130400,
+            "cityLevel": 2,
+            "bought": 0,
+            "isLast": 0,
+            "parentid": 130000,
+            "yearprice": 440,
+            "monthprice": 40,
+            "quarterprice": 110
+        },
+        {
+            "name": "邢台市",
+            "id": 130500,
+            "cityLevel": 2,
+            "bought": 0,
+            "isLast": 0,
+            "parentid": 130000,
+            "yearprice": 440,
+            "monthprice": 40,
+            "quarterprice": 110
+        },
+        {
+            "name": "保定市",
+            "id": 130600,
+            "cityLevel": 2,
+            "bought": 0,
+            "isLast": 0,
+            "parentid": 130000,
+            "yearprice": 440,
+            "monthprice": 40,
+            "quarterprice": 110
+        },
+        {
+            "name": "张家口市",
+            "id": 130700,
+            "cityLevel": 2,
+            "bought": 0,
+            "isLast": 0,
+            "parentid": 130000,
+            "yearprice": 440,
+            "monthprice": 40,
+            "quarterprice": 110
+        },
+        {
+            "name": "承德市",
+            "id": 130800,
+            "cityLevel": 2,
+            "bought": 0,
+            "isLast": 0,
+            "parentid": 130000,
+            "yearprice": 440,
+            "monthprice": 40,
+            "quarterprice": 110
+        },
+        {
+            "name": "沧州市",
+            "id": 130900,
+            "cityLevel": 2,
+            "bought": 0,
+            "isLast": 0,
+            "parentid": 130000,
+            "yearprice": 440,
+            "monthprice": 40,
+            "quarterprice": 110
+        },
+        {
+            "name": "廊坊市",
+            "id": 131000,
+            "cityLevel": 2,
+            "bought": 0,
+            "isLast": 0,
+            "parentid": 130000,
+            "yearprice": 440,
+            "monthprice": 40,
+            "quarterprice": 110
+        },
+        {
+            "name": "衡水市",
+            "id": 131100,
+            "cityLevel": 2,
+            "bought": 0,
+            "isLast": 0,
+            "parentid": 130000,
+            "yearprice": 440,
+            "monthprice": 40,
+            "quarterprice": 110
+        }
+    ],
+    "defaultCounty": null,
+    "defaultCity": 130300,
+    "allCountry": {
+        "name": "全国地区",
+        "id": 100000,
+        "cityLevel": 0,
+        "bought": 1,
+        "isLast": 0,
+        "parentid": null,
+        "yearprice": 3300,
+        "monthprice": 300,
+        "quarterprice": 800
+    },
+    "rule": {
+        "id": 10,
+        "months": 3,
+        "rule": "3个月内累计消费3800，用户可免费开通全国地区1年的会员",
+        "price": 3800
+    },
+    "provinceList": [
+        {
+            "name": "河北省",
+            "id": 130000,
+            "cityLevel": 1,
+            "bought": 1,
+            "isLast": 0,
+            "parentid": 100000,
+            "yearprice": 1100,
+            "monthprice": 100,
+            "quarterprice": 280
+        },
+        {
+            "name": "山东省",
+            "id": 370000,
+            "cityLevel": 1,
+            "bought": 0,
+            "isLast": 0,
+            "parentid": 100000,
+            "yearprice": 1100,
+            "monthprice": 100,
+            "quarterprice": 280
+        }
+    ],
+    "code": 1,
+    "defaultProvince": 130000,
+    "msg": "操作成功",
+    "destCity": {
+        "name": "山东省",
+        "id": 370000,
+        "cityLevel": 1,
+        "bought": null,
+        "isLast": null,
+        "parentid": 100000,
+        "yearprice": 440,
+        "monthprice": 40,
+        "quarterprice": 110
+    }
+}
