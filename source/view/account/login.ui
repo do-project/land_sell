@@ -20,6 +20,7 @@
 						"x":"70",
 						"fontSize":"35",
 						"id":"do_TextField_userName",
+						"text":"demo_user",
 						"type":"do_TextField",
 						"fontColor":"FFFFFFFF",
 						"cursorColor":"FFFFFFFF"
@@ -59,6 +60,7 @@
 						"x":"70",
 						"fontSize":"35",
 						"id":"do_TextField_password",
+						"text":"password123",
 						"type":"do_TextField",
 						"fontColor":"FFFFFFFF",
 						"cursorColor":"FFFFFFFF"
